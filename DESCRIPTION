@@ -16,7 +16,8 @@ Imports:
     openssl,
     packrat (>= 0.5),
     rstudioapi (>= 0.5),
-    yaml (>= 2.1.5)
+    yaml (>= 2.1.5),
+    readr
 Suggests:
     RCurl,
     callr,

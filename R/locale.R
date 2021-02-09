@@ -79,6 +79,6 @@ systemLocale <- function() {
 
 systemInfo <- function () {
   raw <- system("systeminfo /FO csv", intern=TRUE, wait=TRUE)
-  info <- read.csv(textConnection(raw))
+  info <- readr::read_csv(textConnection(raw))
   return(info)
 }
